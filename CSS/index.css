@@ -2,11 +2,38 @@ html, body{
     height: 100%;
     width: 100%;
 }
+
+
 header{
     width: 100%;
 }
+
+
 .header{
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.menu{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 4rem;
+}
+
+.perfil{
+    width: 4rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+h1{
+    display: flex;
+}
+
+.rotina{
+    display: flex;
+    justify-content: center;
 }
