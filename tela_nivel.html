@@ -5,23 +5,49 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Qual é o seu nível</title>
             <link rel="stylesheet" href="css/reset.css">
+            <link rel="stylesheet" href="css/tela_nivel_css.css">
+
 
         </head>
     <body>
-        <h1>Qual é o seu nível?</h1>
+
+        <header>
+            <figure class="header">
+                <a href="index.html">
+                    <img src="img/voltar.png" class="voltar" alt="botão voltar">
+                </a>
+                <a href="tela_frequencia_duracao.html">
+                    <img src="img/proximo.png" class="proximo" alt="botão proximo">
+                </a>
+            </figure>
+         </header>
+
 
         <main>
-            
+            <h1>
+                Qual seu nivel?
+            </h1>
 
-            <input type="radio" name="dificuldade"><label>Iniciante</label>
-            <input type="radio" name="dificuldade"><label>Intermediário</label>
-            <input type="radio" name="dificuldade"><label>Avançado</label>
-
-        
+            <dl class="form">
+                <dt>
+                    <input type="radio" name="dificuldade"><label>Iniciante</label>
+                </dt>
+                <dd>
+                    <input type="radio" name="dificuldade"><label>Intermediário</label>
+                </dd>
+                <dd>
+                    <input type="radio" name="dificuldade"><label>Avançado</label>
+                </dd>
+                <dd class="botao">
+                    <a href="tela_rotina_criada.html">
+                        Concluir
+                    </a>
+                </dd>
+            </dl>
+           
         </main>
 
         <footer>
-            <a href="tela_rotina_criada.html">Concluir</a>
         </footer>
     </body>
     </html>
