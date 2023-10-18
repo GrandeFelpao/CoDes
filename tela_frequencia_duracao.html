@@ -10,45 +10,58 @@
         </head>
         <body>
             <header>
-                <a href="tela_objetivo.html">
-                    <img src="img/voltar.png" class="voltar" alt="botão voltar">
-                </a>
-                <a href="tela_nivel.html">
-                    <img src="img/proximo.png" class="proximo" alt="botão proximo">
-                </a>
+                <figure class="header">
+                    <a href="tela_objetivo.html">
+                        <img src="img/voltar.png" class="voltar" alt="botão voltar">
+                    </a>
+                    <a href="tela_nivel.html">
+                        <img src="img/proximo.png" class="proximo" alt="botão proximo">
+                    </a>
+                </figure>
             </header>
 
             <main>
                 <form>
+                        <div class="por_semana">
+                            <h1>Treinos por semana</h1>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="3" name="frequencia">
+                                    <label>3</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="4" name="frequencia">
+                                    <label>4</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="5" name="frequencia">
+                                    <label>5</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="6" name="frequencia">
+                                    <label>6</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="7" name="frequencia">
+                                    <label>7</label>
+                                </li>
+                            </ul>
+                        </div>
 
-                <h1>Treinos por semana</h1>
-                
-                <input type="radio" id="3" name="frequencia">
-                <label>3</label>
-                <input type="radio" id="4" name="frequencia">
-                <label>4</label>
-                <input type="radio" id="5" name="frequencia">
-                <label>5</label>
-                <input type="radio" id="6" name="frequencia">
-                <label>6</label>
-                <input type="radio" id="7" name="frequencia">
-                <label>7</label>
+                        <div class="duracao">
+                            <h1>Duração do treino (horas)</h1>
 
-
-
-
-                <h1>Duração do treino (horas)</h1>
-
-                <input type="radio" name="duração_do_treino" id="1">
-                <label>1,0</label>
-                <input type="radio" name="duração _do_treino" id="1,5">
-                <label>1,5</label>
-                <input type="radio" name="duração_do_treino" id="2">
-                <label>2,0</label>
-                <input type="radio" name="duração_do_treino" id="2,5">
-                <label>2,5</label>
-                <input type="radio" name="duração_do_treino" id="3,0">
-                <label>3,0</label>
+                            <input type="radio" name="duração_do_treino" id="1">
+                            <label>1,0</label>
+                            <input type="radio" name="duração _do_treino" id="1,5">
+                            <label>1,5</label>
+                            <input type="radio" name="duração_do_treino" id="2">
+                            <label>2,0</label>
+                            <input type="radio" name="duração_do_treino" id="2,5">
+                            <label>2,5</label>
+                            <input type="radio" name="duração_do_treino" id="3,0">
+                            <label>3,0</label>
+                        </div>
 
                 </form>
             </main>

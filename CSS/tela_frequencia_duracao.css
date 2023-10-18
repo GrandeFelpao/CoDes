@@ -4,7 +4,6 @@ html, body{
     position: absolute;
 }
 
-
 .voltar, .proximo{
     margin-right: 1rem;
     margin-top: 1rem;
@@ -16,4 +15,30 @@ html, body{
 .header{
     display: flex;
     justify-content: space-between;
+}
+header{
+    height: 10%;
+}
+main{
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    display: flex;
+    height: 85%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1 {
+    display:flex ;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
 }
