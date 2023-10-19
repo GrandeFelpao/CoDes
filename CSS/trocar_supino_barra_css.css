@@ -65,6 +65,16 @@ footer{
     font-size: 30px;
     border-radius: 20%;
 }
+.botao2{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border: 0.1rem solid black;
+    border-spacing: 1rem;
+    font-size: 40px;
+    border-radius: 100%;
+    padding: 1rem;
+}
 
 .seta_baixo{
     margin-right: 1rem;
