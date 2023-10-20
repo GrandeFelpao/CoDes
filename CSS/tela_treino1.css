@@ -103,7 +103,9 @@ h2{
     position: absolute;
 }
 .trocar{
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     top: 0;
     right: 0;
     width: 25%;
@@ -112,7 +114,12 @@ h2{
     border-radius: 20px;
     position: absolute;
 }
+
+img{
+    width: 25%;
+}
 .massa, .freq, .ajuda{
     font-size: 30px;
 }
+
 
