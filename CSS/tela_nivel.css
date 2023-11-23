@@ -56,13 +56,9 @@ footer{
     justify-content: center ;
 }
 .concluir{
-    color: white;
-
     margin-left: 0rem;
-    height: 5rem;
-    width: 13rem;
-    background-color: black;
-    border-radius: 15%;
+    width: 11.6rem;
+    border-radius: 5%;
     border: 0.2rem solid black;
     font-family: "Ubuntu", sans-serif;
 }
