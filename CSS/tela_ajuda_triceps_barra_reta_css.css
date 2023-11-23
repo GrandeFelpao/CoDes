@@ -23,9 +23,9 @@ header{
     height: 20%;
 }
 
-imgtriceps{
-    height: 1rem;
-    width: 1rem;
+.imgtriceps{
+    height: 23rem;
+    width: auto;
 }
 
 main{
