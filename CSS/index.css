@@ -57,12 +57,13 @@ main{
 footer {
     display: flex;
     justify-content: space-around;
-    font-size: 2rem;
+    font-size: 3rem;
     position: absolute;
     bottom: 0;
     width: 100%;
     align-items: center;
     height: 15%;    
+    font-family: "Ubuntu", sans-serif;
 }
 .icone-superior-esquerda{
     border-right: 0.5rem solid black;
