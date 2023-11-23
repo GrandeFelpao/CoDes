@@ -56,6 +56,7 @@ input[type='radio'] {
     border: 3px solid white;
     width: 25px;
     height: 25px;
+    border-radius: 40%;
   }
   
 input[type='radio']:checked {
@@ -69,10 +70,16 @@ li{
     display: flex;
     align-items: center;
     justify-content: center ;
+    font-family: "Ubuntu", sans-serif;
 }
 .por_semana, .duracao{
     display: flex;
     height: 25%;
     flex-direction: column;
     justify-content: space-between;
+}
+
+h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: x-large;
 }

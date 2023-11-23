@@ -1,3 +1,4 @@
+
 html, body{
     height: 100%;
     width: 100%;
@@ -37,4 +38,12 @@ main{
     margin-top: 1rem;
     margin-left: 1rem;
     border: 0.2rem solid black;
+}
+
+h1{ 
+    font-family: "Ubuntu", sans-serif;
+}
+
+h2{ 
+    font-family: "Ubuntu", sans-serif;
 }
