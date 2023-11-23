@@ -30,6 +30,7 @@ h1{
     justify-content: center;
     font-size: 50px;
     font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
     
 }
 ul{
@@ -72,6 +73,7 @@ h2{
     width: 75%;
     height: 65%;
     font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .massa{
@@ -93,16 +95,19 @@ h2{
     position: absolute;
 }
 .ajuda{
+    color: #FF9933;
     text-align: center;
     bottom: 0;
     right: 0;
     width: 33%;
     height: 35%;
-    border: 5px solid black;
+    border: 5px solid #FF9933;
     border-radius: 20px;
     position: absolute;
+    font-family: "Ubuntu", sans-serif;
 }
 .trocar{
+    color: #ff0d00;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -110,9 +115,10 @@ h2{
     right: 0;
     width: 25%;
     height: 25%;
-    border: 5px solid black;
+    border: 5px solid #ff0d00;
     border-radius: 20px;
     position: absolute;
+    font-family: "Ubuntu", sans-serif;
 }
 
 img{
